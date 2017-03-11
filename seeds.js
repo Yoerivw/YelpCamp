@@ -90,7 +90,7 @@ function seedsDB(){
                 }
             });
         });
-    }); 
+     }); 
     //add a few comments
 }
 
