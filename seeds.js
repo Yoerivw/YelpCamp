@@ -63,8 +63,8 @@ function seedsDB(){
   //Remove all campgrounds
   Campground.remove({}, function(err){
         if(err){
-            console.log(err);
-        }
+             console.log(err);
+         }
         console.log("removed campgrounds!");
          //add a few campgrounds
         data.forEach(function(seed){
