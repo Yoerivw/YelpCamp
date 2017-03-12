@@ -24,7 +24,7 @@ var commentRoutes     = require("./routes/comments"),
   
 //connect and dynamically create a database called yelp_camp    
 mongoose.connect("process.env.DATABASEURL");
-// mongoose.connect("mongodb://yoeri:yoeri@ds015849.mlab.com:15849/yelpcamp");
+
 // 
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", "ejs");
